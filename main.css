@@ -5,7 +5,10 @@ animation: movebtn 4s ease;
         padding-bottom:10;
         margin-bottom: 10px;
     }
-
+div.display-4 {
+  text-align: center;
+  border: 3px solid;
+}
     
     body {
     	background: linear-gradient(black, black, white, black, black, white);
