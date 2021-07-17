@@ -15,7 +15,7 @@ animation: movebtn 4s ease;
     
     @keyframes gradient {
     	0% {
-    		background-size: 300% 300%;
+    		background-size: 3000% 3000%;
     		background-position: 0% 0%;
     	}
     	50% {
