@@ -19,6 +19,8 @@ h1.display-4 {
 	color: #ffffff;
 	font-family: sans-serif;
 	animation: grad 15s ease infinite;
+	margin: auto;
+	margin-top: 3em;
 }
 
 .until__component {
