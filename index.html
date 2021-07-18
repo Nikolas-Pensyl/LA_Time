@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="./main.css">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="./main.css">
+		<title>Days Until</title>
 	</head>
 	<body>
-
 		<div class="jumbotron">
-  	<h1 class="display-4">Welcome to the countdown!!!!!!</h1><br>
-        </div>
+  			<h1 class="display-4">Welcome to the countdown!!!!!!</h1><br>
+        	</div>
+		<div class="until">
+			<div class="until__component">
+				<div class="until__numeric until__numeric--days">00</div>
+				<div class="until__unit">Days</div>
+			</div>
+			<div class="until__component">
+				<div class="until__numeric until__numeric--hours">00</div>
+				<div class="until__unit">Hours</div>
+			</div>
+			<div class="until__component">
+				<div class="until__numeric until__numeric--minutes">00</div>
+				<div class="until__unit">Minutes</div>
+			</div>
+			<div class="until__component">
+				<div class="until__numeric until__numeric--seconds">00</div>
+				<div class="until__unit">Seconds</div>
+			</div>
+		</div>
+		<script> src="./main.js"></script>
+		
         </body>
         </html>
