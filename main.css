@@ -4,8 +4,11 @@
         padding-bottom:10;
         margin-bottom: 10px;
     }
-h1.display-4 {
+.display-4 {
   text-align: center;
+}
+.display-5 {
+   text-align: center;	
 }
 .until {
 	margin: 25px;
