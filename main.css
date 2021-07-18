@@ -14,10 +14,11 @@ h1.display-4 {
 	grid-template-columns: repear(4, 1fr);
 	gap: 1em;
 	padding: 1em;
-	background: background: linear-gradient(blue, purple, red, orange, yellow, lime, green, cyan);
+	background: blue;
 	border-radius: 5px;
 	color: #ffffff;
 	font-family: sans-serif;
+	animation: grad 15s ease infinite;
 }
 
 .until__component {
@@ -69,6 +70,18 @@ h1.display-4 {
 	   background-position: 0% 0%;
     	}
 }
+
+@keyframes grad {
+    	0% {background: blue;}
+    	12%{background: purple;}
+    	25%{background: red;}
+    	37%{background: orange;}
+    	50%{background: yellow;}
+    	63&{background: lime;}
+    	75%{background: green;}
+    	87%{background: cyan;}
+    	100%{background: blue;}
+    }
 
    @keyframes movebtn {
     0%{ 
