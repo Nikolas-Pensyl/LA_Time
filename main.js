@@ -17,6 +17,6 @@ function activateCountdown(element, dateString) {
   }, 250);
 }
 
-activateCountdown(document.getElementById("myCountdown"), "2021-08-06");
+activateCountdown(document.getElementById("myCountdown"), "2021-08-06T06:15:00.000Z");
 
 dayjs.locale('en');
