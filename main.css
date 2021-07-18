@@ -14,7 +14,7 @@ h1.display-4 {
 	grid-template-columns: repear(4, 1fr);
 	gap: 1em;
 	padding: 1em;
-	background: #009578;
+	background: background: linear-gradient(blue, purple, red, orange, yellow, lime, green, cyan);
 	border-radius: 5px;
 	color: #ffffff;
 	font-family: sans-serif;
