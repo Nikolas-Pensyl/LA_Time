@@ -1,4 +1,5 @@
 dayjs.extend(dayjs_plugin_duration);
+dayjs.extend(customParseFormat);
 
 function activateCountdown(element) {
   const dateString = "6 8 2021 6:15:00";
