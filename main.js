@@ -7,7 +7,7 @@ function activateCountdown(element) {
   
   setInterval(() => {
     const now = dayjs();
-    const duration = dayjs.duration(targetDate.diff(now);
+    const duration = dayjs.duration(targetDate.diff(now));
                                     
      if (duration.asMilliseconds() <= 0) return;
                                     
