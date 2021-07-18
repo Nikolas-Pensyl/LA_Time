@@ -1,8 +1,9 @@
 dayjs.extend(dayjs_plugin_duration);
 
-function activateCountdown(element, dateString) {
-  const targetDate = dayjs(dateString);
-  element.querySelector(".until__event").textContent = 'Until Take off on ${targetDate.format("MMMM D YYYY")}';
+function activateCountdown(element) {
+  const dateString = "6 8 2021 6:15:00";
+  const parseString = "D M YYYY H:mm:ss";
+  const targetDate = dayjs(dateString, parseString);
   
   setInterval(() => {
     const now = dayjs();
@@ -17,6 +18,6 @@ function activateCountdown(element, dateString) {
   }, 250);
 }
 
-activateCountdown(document.getElementById("myCountdown"), "2021-08-06T06:15:00.000Z");
+activateCountdown(document.getElementById("myCountdown"));
 
 dayjs.locale('en');
